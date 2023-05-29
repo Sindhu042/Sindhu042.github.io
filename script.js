@@ -1,1 +1,1 @@
-alert("Welcome! I'm Sindhu's alert box");
+console.log("Welcome back!")
