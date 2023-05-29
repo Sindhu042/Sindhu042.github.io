@@ -1,0 +1,1 @@
+alert("Welcome! I'm Sindhu's alert box");
