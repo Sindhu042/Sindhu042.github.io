@@ -1,0 +1,28 @@
+/*.container{
+    margin-left: 80px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.986);
+    width: 30%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 1s;
+}
+.card:hover{
+    box-shadow: 0 20px 34px 0 rgba(0, 0, 0, 0.986);
+}
+.card-image{
+    width: 100%;
+}*/
+.user_name{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*.user_designation{
+    font-size: 30px;
+    font-style: italic;
+
+}*/
