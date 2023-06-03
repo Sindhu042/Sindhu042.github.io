@@ -16,13 +16,14 @@
     width: 100%;
 }*/
 .user_name{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
 }
-/*.user_designation{
-    font-size: 30px;
+.user_designation{
+    font-size: 25px;
     font-style: italic;
-
-}*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
