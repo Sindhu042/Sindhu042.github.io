@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
-    <link rel="stylesheet" href="weatherStyle.css">
+    <link rel="stylesheet" href="./weatherStyle.css">
 </head>
 <body>
-    <div class = "search">
-        <input type = "text" placeholder="Enter city name" spellcheck="false">
-        <button onclick="getReport()" class = "show">Search</button>
-    </div>
-    <div class = "card">
-        <p id ="wName"></p>
-        <p id = "wTemp"> </p>
-        <p id = "wWindSpeed"></p>
-        <p id = "myHumidity"></p>
-    
-        
+    <div class = "wrapper">
+        <h1 >Weather app</h1><br>
+        <div class = "search">
+            <input type = "text" placeholder="Enter city name" spellcheck="false" id = "cityName">
+            <button onclick="getReport()" class = "show">Search</button>
+        </div>
+        <div class = "card">
+            <p id ="wName">Name</p>
+            <p id = "wTemp"> Temapature</p>
+            <p id = "wWindSpeed">Wind speed</p>
+            <p id = "myHumidity">Humidity</p>
+        </div>
     </div>
     <script src = "./weather.js"></script>
 </body>
