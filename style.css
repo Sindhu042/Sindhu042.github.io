@@ -6,5 +6,6 @@ table, th, td {
     border-collapse: collapse;
 }
 th, td {
+    align-content: center;
     background-color: darkturquoise;
 }
