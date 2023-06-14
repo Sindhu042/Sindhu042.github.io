@@ -9,17 +9,15 @@
 </head>
 <body>
     <div class = "wrapper">
-        <h1 >Weather app</h1><br>
+        <h1 >WEATHER APP</h1><br>
         <div class = "search">
-            <input type = "text" placeholder="Enter city name" spellcheck="false" id = "cityName">
-            <button onclick="getReport()" class = "show">Search</button>
+            <input type = "text" placeholder="Enter city name" spellcheck="false" id = "cityName"><br>
+            <button onclick="getReport()" class = "show">Search</button><br><br>
         </div>
-        <div class = "card">
-            <p> City Name : <span id ="wName"></span></p>
+        <p> City Name : <span id ="wName"></span></p>
             <p>Temparature : <span id = "wTemp"> </span>&deg; C </p>
             <p>Wind speed : <span id = "wWindSpeed"></span>mph</p>
             <p>Humidity : <span id = "myHumidity"></span>%</p>
-        </div>
     </div>
     <script src = "./weather.js"></script>
 </body>
