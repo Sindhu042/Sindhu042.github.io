@@ -1,5 +1,5 @@
-h2{
-    color :blueviolet;
+body{
+    align-items: center;
 }
 table, th, td {
     border: 1px solid white;
